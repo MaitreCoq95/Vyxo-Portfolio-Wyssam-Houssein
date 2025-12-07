@@ -468,6 +468,12 @@ export const translations: Record<Language, Translations> = {
       subtitle: 'Expertise réglementaire et opérationnelle',
       items: [
         {
+          title: 'Lead Auditor LRQA ISO 22000',
+          institution: 'LRQA — En cours',
+          year: '2024-2025',
+          description: 'Formation Lead Auditor ISO 22000 pour la sécurité des denrées alimentaires et la gestion de la chaîne du froid',
+        },
+        {
           title: 'GDP Transport (Good Distribution Practice)',
           institution: 'Pharma & Cold Chain',
           year: '2020-2025',
@@ -478,12 +484,6 @@ export const translations: Record<Language, Translations> = {
           institution: 'Agroalimentaire & Sécurité',
           year: '2013-2025',
           description: 'Hygiène alimentaire, sécurité chaîne du froid agro, management qualité alimentaire',
-        },
-        {
-          title: 'ISO 9001 — Process & Management',
-          institution: 'Excellence Opérationnelle',
-          year: '2014-2025',
-          description: 'Système de management qualité, amélioration continue, process mapping, audits',
         },
         {
           title: 'Management Opérationnel & Direction d\'Agence',
@@ -856,26 +856,32 @@ export const translations: Record<Language, Translations> = {
       ],
     },
     diplomas: {
-      title: 'Education & Certifications',
-      subtitle: 'Academic and professional background',
+      title: 'Certifications & Expertise',
+      subtitle: 'Regulatory and operational expertise',
       items: [
         {
-          title: 'Master II Corporate Finance',
-          institution: 'Business School',
-          year: '2013',
-          description: 'Specialization in Finance, Management Control, Audit',
+          title: 'Lead Auditor LRQA ISO 22000',
+          institution: 'LRQA — In Progress',
+          year: '2024-2025',
+          description: 'Lead Auditor ISO 22000 training for food safety and cold chain management',
         },
         {
-          title: 'Data & BI Certifications',
-          institution: 'Self-taught',
-          year: '2018-2024',
-          description: 'Power BI, Python, R, Advanced Excel, AI',
+          title: 'GDP Transport (Good Distribution Practice)',
+          institution: 'Pharma & Cold Chain',
+          year: '2020-2025',
+          description: 'Complete mastery of pharmaceutical Good Distribution Practices, regulatory compliance',
         },
         {
-          title: 'Management Control Certification',
-          institution: 'DFCG',
-          year: '2015',
-          description: 'Diploma from the Federation of Management Controllers',
+          title: 'HACCP & ISO 22000',
+          institution: 'Food Safety & Security',
+          year: '2013-2025',
+          description: 'Food hygiene, agri-food cold chain safety, food quality management',
+        },
+        {
+          title: 'Operational Management & Site Direction',
+          institution: 'Field Experience',
+          year: '2013-2025',
+          description: 'Direction of sensitive sites, management of 120+ people, KPIs, social climate, profitability',
         },
       ],
     },
