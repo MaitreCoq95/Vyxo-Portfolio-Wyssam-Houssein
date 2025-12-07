@@ -66,7 +66,7 @@ export function Header() {
               <span>{language.toUpperCase()}</span>
             </button>
 
-            <a href="https://www.linkedin.com/in/wyssam-houssein/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/wyssam-housseine-525b525a/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
             <a href="mailto:wyssam.houssein@vyxoconsult.com">
@@ -112,7 +112,7 @@ export function Header() {
             </button>
 
             <div className="flex items-center gap-4 pt-4 border-t border-border">
-              <a href="https://www.linkedin.com/in/wyssam-houssein/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/wyssam-housseine-525b525a/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
               </a>
               <a href="mailto:wyssam.houssein@vyxoconsult.com">
