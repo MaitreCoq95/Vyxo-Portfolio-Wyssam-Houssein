@@ -8,14 +8,14 @@ export function HeroSection() {
   const { t } = useTranslation()
 
   const badges = [
-    "Excel Expert",
-    "Power BI",
-    "SAP",
-    "Budgeting & Forecasting",
-    "Cost Control",
-    "Business Analysis",
-    "Data Quality",
-    "Financial Reporting"
+    "Cold Chain Pharma",
+    "GDP Transport",
+    "HACCP",
+    "ISO 22000",
+    "Management 120+ pers",
+    "Excellence Opérationnelle",
+    "Agroalimentaire",
+    "Audit Terrain"
   ]
 
   return (
@@ -69,8 +69,8 @@ export function HeroSection() {
               {/* Image container */}
               <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden border-2 border-primary/30">
                 <img
-                  src="/nicolas-lemoine-profile.png"
-                  alt="Nicolas Lemoine - Chief Performance & Finance Strategist"
+                  src="/wyssam-houssein-profile.png"
+                  alt="Wyssam Houssein - Senior Operations Consultant"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
@@ -83,7 +83,7 @@ export function HeroSection() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-foreground">{t.hero.stats.experience}</p>
-                    <p className="text-xs text-muted-foreground">Finance & Data</p>
+                    <p className="text-xs text-muted-foreground">Cold Chain</p>
                   </div>
                 </div>
               </div>
@@ -91,11 +91,11 @@ export function HeroSection() {
               <div className="absolute -top-6 -right-6 bg-card border border-border rounded-xl p-4 shadow-lg">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-primary">3</span>
+                    <span className="text-2xl font-bold text-primary">120</span>
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-foreground">{t.hero.stats.countries}</p>
-                    <p className="text-xs text-muted-foreground">FR/BE/DE</p>
+                    <p className="text-xs text-muted-foreground">Équipe</p>
                   </div>
                 </div>
               </div>

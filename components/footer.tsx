@@ -58,7 +58,7 @@ export function Footer() {
                 {t.footer.contact.phone}
               </a>
               <a
-                href="https://www.linkedin.com/in/nicolas-lemoine-32083417/"
+                href="https://www.linkedin.com/in/wyssam-houssein/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary text-sm"
